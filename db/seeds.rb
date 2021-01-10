@@ -18,20 +18,20 @@ cat3 = Category.find_or_create_by! name: 'Pets'
 
 Photo.destroy_all
 
-cat1.photo.create!({
+cat1.photos.create!({
   name:  'Clementine',
   description: 'Dog in park',
-  image: 'https://images.unsplash.com/photo-1591451639613-de71552102d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'
+  image_url: 'https://images.unsplash.com/photo-1591451639613-de71552102d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'
 })
 
-cat2.photo.create!({
+cat2.photos.create!({
   name:  'Clementine',
   description: 'Dog in park',
-  image: 'https://images.unsplash.com/photo-1591451639613-de71552102d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'
+  image_url: 'https://images.unsplash.com/photo-1591451639613-de71552102d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'
 })
 
-cat3.photo.create!({
+cat3.photos.create!({
   name:  'Clementine',
   description: 'Dog in park',
-  image: 'https://images.unsplash.com/photo-1591451639613-de71552102d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'
+  image_url: 'https://images.unsplash.com/photo-1591451639613-de71552102d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'
 })
