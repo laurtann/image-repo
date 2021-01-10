@@ -1,12 +1,15 @@
 <body>
-    <section class="gallery-block compact-gallery">
-        <div class="container">
-            <div class="heading">
-                <h2>Image Repo</h2>
-            </div>
-            <div class="row no-gutters">
-              <%= render @photos %>
-            </div>
+  <section class="gallery-block compact-gallery">
+    <div class="container">
+        <div class="heading">
+            <h2>Your Images</h2>
         </div>
-    </section>
+        <div class="row no-gutters">
+          <%= render @photos %>
+        </div>
+    </div>
+  </section>
+  <div class="row justify-content-center">
+    <button type="submit" class="btn btn-primary">+ New Image</button>
+  </div>
 </body>

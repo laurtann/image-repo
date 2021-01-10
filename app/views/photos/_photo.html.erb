@@ -2,8 +2,10 @@
     <a class="lightbox" href= <%= photo.image_url %> >
         <img class="img-fluid image" src= <%= photo.image_url %> >
         <span class="description">
-            <span class="description-heading"> <%= photo.name %> </span>
-            <span class="description-body"> <%= photo.description %> </span>
+            <span class="description-heading"> <%= photo.category %> </span>
+            <div class="row justify-content-center">
+              <button type="submit" class="btn btn-danger">X</button>
+            </div>
         </span>
     </a>
 </div>
