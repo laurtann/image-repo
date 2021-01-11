@@ -1,6 +1,6 @@
 # Welcome to Image Repo, a gallery for all your online images!
 
-## See it live [https://image-repo-laurtann.herokuapp.com/](Here)
+## See it live [Here](https://image-repo-laurtann.herokuapp.com/)
 
 This was created as part of Shopify's Developer Intern Challenge (2021).
 
