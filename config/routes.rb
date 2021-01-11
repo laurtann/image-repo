@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
   root 'photos#index'
-  resources :photos, only: [:index, :new, :create :search]
+  resources :photos
+
+  get 'search' => 'photos#search'
 
 end

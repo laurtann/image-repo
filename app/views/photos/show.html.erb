@@ -1,0 +1,23 @@
+<body>
+  <section class="gallery-block">
+    <div class="container">
+      <div class="heading">
+          <h2>Image <%= @photo.id %> </h2>
+          <h2>Category: <%= @photo.category %></h2>
+      </div>
+
+      <div class="row justify-content-center show-img">
+        <img src= <%= @photo.image_url %> >
+      </div>
+
+      <div class="row justify-content-center">
+        <%= link_to 'Delete Image', @photo,
+          method: :delete,
+          data: { confirm: 'Are you sure?' },
+          class: "btn btn-danger"
+        %>
+      </div>
+    </div>
+  </section>
+
+</body>

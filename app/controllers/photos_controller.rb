@@ -7,6 +7,10 @@ class PhotosController < ApplicationController
     @photos = Photo.where("category ILIKE ?", "%" + params[:q] + "%")
   end
 
+  def show
+    @photo= Photo.find params[:id]
+  end
+
   def new
     @photo = Photo.new
   end
@@ -19,6 +23,13 @@ class PhotosController < ApplicationController
     else
       render :new
     end
+  end
+
+  def destroy
+    @photo = Photo.find(params[:id])
+    @photo.destroy
+
+    redirect_to '/'
   end
 
   def photo_params
