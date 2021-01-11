@@ -10,7 +10,7 @@ Users can
 - Search photo categories
 
 ## Ruby version
-- 4.2.6
+- 4.6.3
 
 ## System dependencies
 - PostgreSQL
