@@ -21,3 +21,13 @@ Users can
 
 ## How to run
 - bin/rails server (bin/rails s -b 0.0.0.0 if on Vagrant)
+
+## Screenshots
+
+![image repo gallery view](https://github.com/laurtann/image-repo/blob/master/docs/image-repo-gallery.png?raw=true)
+
+![image repo search view](https://github.com/laurtann/image-repo/blob/master/docs/image-repo-search.png?raw=true)
+
+![image repo confirm destroy view](https://github.com/laurtann/image-repo/blob/master/docs/image-repo-confirm-destory.png?raw=true)
+
+![image repo gif](https://github.com/laurtann/image-repo/blob/master/docs/image-repo-gif.gif?raw=true)
