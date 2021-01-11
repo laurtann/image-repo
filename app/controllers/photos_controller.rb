@@ -3,10 +3,6 @@ class PhotosController < ApplicationController
     @photos = Photo.all.order(created_at: :desc)
   end
 
-  def search
-    @photos = Photo.where("category ILIKE ?", "%" + params[:q] + "%")
-  end
-
   def show
     @photo= Photo.find params[:id]
   end
@@ -37,6 +33,10 @@ class PhotosController < ApplicationController
     else
       render 'edit'
     end
+  end
+
+  def search
+    @photos = Photo.where("category ILIKE ?", "%" + params[:q] + "%")
   end
 
   def destroy
