@@ -87,5 +87,5 @@ test:
 production:
   database: image-repo_production
   adapter: postgresql
-  host: ENV['DATABASE_URL']
-  password: ENV['IMAGE-REPO_DATABASE_PASSWORD']
+  host: <%= ENV['DATABASE_URL'] %>
+  password: <%= ENV['IMAGE-REPO_DATABASE_PASSWORD'] %>
