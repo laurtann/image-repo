@@ -14,7 +14,7 @@ Users can
 
 ## System dependencies
 - PostgreSQL
-- Rails-sass
+- Bootstrap-sass
 
 ## Database initialization
 - Run `bin/rake db:reset` to create, load and seed db
