@@ -1,6 +1,4 @@
-== README
-
-## Welcome to Image Repo, a gallery for all your online images!
+# Welcome to Image Repo, a gallery for all your online images!
 
 This was created as part of Shopify's Developer Intern Challenge (2021).
 
@@ -14,12 +12,12 @@ Users can
 ## Ruby version
 - 4.2.6
 
-# System dependencies
+## System dependencies
 - PostgreSQL
 - Rails-sass
 
-# Database initialization
+## Database initialization
 - Run `bin/rake db:reset` to create, load and seed db
 
-# How to run
+## How to run
 - bin/rails server (bin/rails s -b 0.0.0.0 if on Vagrant)
