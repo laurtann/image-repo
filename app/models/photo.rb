@@ -1,3 +1,3 @@
-class Photo < ActiveRecord::Base
+class Photo < ApplicationRecord
   validates :category, presence: true
 end
