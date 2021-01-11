@@ -75,8 +75,8 @@ test:
 #
 # You can use this database configuration with:
 #
-#   production:
-#     url: <%= ENV['DATABASE_URL'] %>
+production:
+  url: <%= ENV['DATABASE_URL'] %>
 # #
 # production:
 #   <<: *default
@@ -84,13 +84,8 @@ test:
 #   username: image-repo
 #   password: <%= ENV['IMAGE-REPO_DATABASE_PASSWORD'] %>
 
-# production:
-#   database: image-repo_production
-#   adapter: postgresql
-#   host: <%= ENV['DATABASE_URL'] %>
-#   password: <%= ENV['IMAGE-REPO_DATABASE_PASSWORD'] %>
 production:
   <<: *default
   database: image-repo_production
   username: image-repo
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+  password: <%= ENV['IMAGE-REPO_DATABASE_PASSWORD'] %>
