@@ -24,10 +24,10 @@ Users can
 
 ## Screenshots
 
+![image repo gif](https://github.com/laurtann/image-repo/blob/master/docs/image-repo-gif.gif?raw=true)
+
 ![image repo gallery view](https://github.com/laurtann/image-repo/blob/master/docs/image-repo-gallery.png?raw=true)
 
 ![image repo search view](https://github.com/laurtann/image-repo/blob/master/docs/image-repo-search.png?raw=true)
 
 ![image repo confirm destroy view](https://github.com/laurtann/image-repo/blob/master/docs/image-repo-confirm-destory.png?raw=true)
-
-![image repo gif](https://github.com/laurtann/image-repo/blob/master/docs/image-repo-gif.gif?raw=true)
